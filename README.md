@@ -100,7 +100,7 @@ Throughout this analysis, I investigated:
 
 | Category                 | SQL Concepts                        |
 | ------------------------ | ----------------------------------- |
-| Aggregation              | SUM(), AVG(), MIN(), MAX(), COUNT() |
+| Aggregation              | SUM(), MIN(), MAX(), COUNT()        |
 | Filtering                | WHERE, HAVING                       |
 | Grouping                 | GROUP BY                            |
 | Sorting                  | ORDER BY                            |
