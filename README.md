@@ -52,6 +52,15 @@ Throughout this analysis, I investigated:
 
 ---
 
+## Dataset Files
+
+| File | Description |
+|------|-------------|
+| `layoffs.csv` | Original raw Global Layoffs dataset downloaded from [Kaggle](https://www.kaggle.com/datasets/swaptr/layoffs-2022). |
+| `layoffs_cleaned.csv` | Cleaned and analysis-ready dataset generated from my previous project, **SQL Data Cleaning: Global Layoffs Dataset**, and used for this exploratory analysis. |
+
+---
+
 ## What I Explored
 
 ### Dataset Exploration
