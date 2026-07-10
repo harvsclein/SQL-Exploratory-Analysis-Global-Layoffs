@@ -95,6 +95,14 @@ Throughout this analysis, I investigated:
 * Top companies by year
 
 ---
+## Key Findings
+
+- The consumer industry experienced the highest number of layoffs.
+- The United States reported the largest number of layoffs.
+- Layoffs peaked during 2022 and gradually declined afterward.
+- Several highly funded companies still underwent complete shutdowns.
+
+---
 
 ## SQL Concepts Applied
 
