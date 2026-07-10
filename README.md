@@ -103,36 +103,36 @@ Throughout this analysis, I investigated:
 
 ---
 
-## Project Screenshots
+## Some Project Screenshots
 
-### Dataset Overview
+### Companies That Shut Down Despite Raising Significant Funding
 
 <p align="center">
-<img src="screenshots/dataset_overview.png" width="900">
+<img src="eda_images/funded_companies_closed.png" width="900">
 </p>
 
-### Companies with the Highest Layoffs
+### Layoffs By Industry
 
 <p align="center">
-<img src="screenshots/company_layoffs.png" width="900">
+<img src="eda_images/industry_layoff.png" width="900">
 </p>
 
-### Yearly Layoff Trends
+### Monthly Trend With Rolling Total
 
 <p align="center">
-<img src="screenshots/yearly_trends.png" width="900">
+<img src="eda_images/monthly_rolling.png" width="900">
 </p>
 
-### Monthly Trends and Rolling Total
+### Top 10 companies with the largest layoffs each year
 
 <p align="center">
-<img src="screenshots/monthly_rolling_total.png" width="900">
+<img src="eda_images/top10_peryear.png" width="900">
 </p>
 
-### Top Companies by Year
+### Companies With Multiple Rounds of Layoffs
 
 <p align="center">
-<img src="screenshots/top_companies_per_year.png" width="900">
+<img src="eda_images/layoff_count.png" width="900">
 </p>
 
 ---
