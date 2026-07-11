@@ -1,8 +1,4 @@
-<div align="center">
-
 # Global Layoffs Exploratory Data Analysis Using SQL
-
-</div>
 
 ## About The Project
 
