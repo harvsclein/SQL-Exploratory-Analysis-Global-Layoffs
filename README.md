@@ -4,15 +4,6 @@
 
 This project focuses on performing an **Exploratory Data Analysis (EDA)** on a global layoffs dataset using **MySQL**. I explored workforce reduction patterns across companies, industries, countries, locations, and company growth stages to better understand how layoffs evolved over time.
 
-Throughout this analysis, I investigated:
-
-* Which companies experienced the highest number of layoffs
-* Which industries and countries were most affected
-* How layoffs changed over time
-* Which companies completely shut down
-* Whether highly funded companies still failed
-* Which organizations underwent multiple rounds of layoffs
-
 ---
 
 ## Project Objectives
@@ -23,53 +14,6 @@ Throughout this analysis, I investigated:
 * Practice writing analytical SQL queries
 * Apply aggregate functions, CTEs, and window functions
 * Extract insights that answer real-world business questions
-
----
-
-## Built With
-
-| Technology | Purpose                                    |
-| ---------- | ------------------------------------------ |
-| MySQL      | Data storage and analysis                  |
-| SQL        | Querying and exploratory analysis          |
-| GitHub     | Project hosting and portfolio presentation |
-
----
-
-## Dataset Overview
-
-| Information        | Description                                                          |
-| ------------------ | -------------------------------------------------------------------- |
-| Dataset            | Global Layoffs Dataset                                               |
-| Analysis Type      | Exploratory Data Analysis (EDA)                                      |
-| Tool Used          | MySQL                                                                |
-| Focus Areas        | Companies, Industries, Countries, Locations, Stages, Time Trends     |
-| Techniques Applied | Aggregations, CTEs, Window Functions, Rankings, Time-Series Analysis |
-
----
-
-## Dataset Files
-
-| File | Description |
-|------|-------------|
-| `layoffs.csv` | Original raw Global Layoffs dataset downloaded from [Kaggle](https://www.kaggle.com/datasets/swaptr/layoffs-2022). |
-| `layoffs_cleaned.csv` | Cleaned and analysis-ready dataset generated from my previous project, **SQL Data Cleaning: Global Layoffs Dataset**, and used for this exploratory analysis. |
-
----
-
-## SQL Concepts Applied
-
-| Category                 | SQL Concepts                        |
-| ------------------------ | ----------------------------------- |
-| Aggregation              | SUM(), MIN(), MAX(), COUNT()        |
-| Filtering                | WHERE, HAVING                       |
-| Grouping                 | GROUP BY                            |
-| Sorting                  | ORDER BY                            |
-| Date Functions           | YEAR(), SUBSTRING()                 |
-| Common Table Expressions | WITH (CTEs)                         |
-| Window Functions         | SUM() OVER(), DENSE_RANK()          |
-| Ranking                  | DENSE_RANK()                        |
-| Time-Series Analysis     | Yearly and Monthly Trends           |
 
 ---
 
@@ -566,3 +510,38 @@ ORDER BY layoff_rounds DESC, total_laid_off DESC;
 - The **Consumer** industry (**45,182 layoffs**) and the **United States** (**256,559 layoffs**) were the most affected.
 - Public companies (**Post-IPO**) accounted for the largest share of layoffs (**204,132 employees**).
 - Several well-funded companies, including **Britishvolt**, **Quibi**, and **Katerra**, shut down despite raising significant investment.
+
+---
+
+## SQL Concepts Applied
+
+| Category                 | SQL Concepts                        |
+| ------------------------ | ----------------------------------- |
+| Aggregation              | SUM(), MIN(), MAX(), COUNT()        |
+| Filtering                | WHERE, HAVING                       |
+| Grouping                 | GROUP BY                            |
+| Sorting                  | ORDER BY                            |
+| Date Functions           | YEAR(), SUBSTRING()                 |
+| Common Table Expressions | WITH (CTEs)                         |
+| Window Functions         | SUM() OVER(), DENSE_RANK()          |
+| Ranking                  | DENSE_RANK()                        |
+| Time-Series Analysis     | Yearly and Monthly Trends           |
+
+---
+
+## Built With
+
+| Technology | Purpose                                    |
+| ---------- | ------------------------------------------ |
+| MySQL      | Data storage and analysis                  |
+| SQL        | Querying and exploratory analysis          |
+| GitHub     | Project hosting and portfolio presentation |
+
+---
+
+## Dataset Files
+
+| File | Description |
+|------|-------------|
+| `layoffs.csv` | Original raw Global Layoffs dataset downloaded from [Kaggle](https://www.kaggle.com/datasets/swaptr/layoffs-2022). |
+| `layoffs_cleaned.csv` | Cleaned and analysis-ready dataset generated from my previous project, **SQL Data Cleaning: Global Layoffs Dataset**, and used for this exploratory analysis. |
