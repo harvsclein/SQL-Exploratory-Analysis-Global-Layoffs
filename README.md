@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This project focuses on performing an **Exploratory Data Analysis (EDA)** on a global layoffs dataset using **MySQL**. I explored workforce reduction patterns across companies, industries, countries, locations, and company growth stages to better understand how layoffs evolved over time.
+This project focuses on performing an **Exploratory Data Analysis (EDA)** on a global layoffs dataset using **MySQL**. I explored workforce reduction patterns across companies, industries, countries, locations, and company growth stages to better comprehend how layoffs evolved over time.
 
 ---
 
