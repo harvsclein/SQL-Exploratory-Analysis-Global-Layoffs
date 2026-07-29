@@ -21,7 +21,7 @@ This project focuses on performing an **Exploratory Data Analysis (EDA)** on a g
 
 ### 1. Dataset Overview
 
-**Business Question**
+**Question**
 
 What is the time period covered by the dataset, and what are the largest recorded layoff events?
 
@@ -47,7 +47,7 @@ FROM layoffs_prac2;
 
 ### 2. Companies That Completely Shut Down
 
-**Business Question**
+**Question**
 
 Which companies laid off their entire workforce?
 
@@ -80,7 +80,7 @@ ORDER BY funds_raised_millions DESC;
 
 ### 3. Companies That Shut Down Despite Raising Significant Funding
 
-**Business Question**
+**Question**
 
 Did companies with substantial funding still fail?
 
@@ -111,7 +111,7 @@ ORDER BY funds_raised_millions DESC;
 
 ### 4. Companies With the Highest Layoffs
 
-**Business Question**
+**Question**
 
 Which companies experienced the largest workforce reductions?
 
@@ -148,7 +148,7 @@ ORDER BY total_laid_off DESC;
 
 ### 5. Industries Most Affected
 
-**Business Question**
+**Question**
 
 Which industries experienced the highest number of layoffs?
 
@@ -178,7 +178,7 @@ ORDER BY total_laid_off DESC;
 
 ### 6. Countries Most Affected
 
-**Business Question**
+**Question**
 
 Which countries reported the highest number of layoffs?
 
@@ -209,7 +209,7 @@ ORDER BY total_laid_off DESC;
 
 ### 7. Locations With the Highest Layoffs
 
-**Business Question**
+**Question**
 
 Which cities or regions experienced the largest workforce reductions?
 
@@ -238,7 +238,7 @@ ORDER BY total_laid_off DESC;
 
 ### 8. Layoffs by Company Growth Stage
 
-**Business Question**
+**Question**
 
 Which company growth stages experienced the highest layoffs?
 
@@ -269,7 +269,7 @@ ORDER BY total_laid_off DESC;
 
 ### 9. Monthly Layoff Trend
 
-**Business Question**
+**Question**
 
 How did layoffs change over time?
 
@@ -307,7 +307,7 @@ FROM rolling_total;
 
 ### 10. Top 10 Companies by Layoffs Each Year
 
-**Business Question**
+**Question**
 
 Which companies recorded the largest layoffs each year?
 
@@ -350,7 +350,7 @@ WHERE ranking <= 10;
 
 ### 11. Top Industries by Year
 
-**Business Question**
+**Question**
 
 Which industries experienced the most layoffs each year?
 
@@ -393,7 +393,7 @@ WHERE ranking <= 10;
 
 ### 12. Top Countries by Year
 
-**Business Question**
+**Question**
 
 Which countries recorded the highest layoffs each year?
 
@@ -436,7 +436,7 @@ WHERE ranking <= 10;
 
 ### 13. Companies With Multiple Rounds of Layoffs
 
-**Business Question**
+**Question**
 
 Which companies conducted layoffs multiple times?
 
