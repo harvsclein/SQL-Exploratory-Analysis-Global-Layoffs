@@ -1,5 +1,10 @@
 # Global Layoffs Exploratory Data Analysis Using SQL
 
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
+![Exploratory Data Analysis](https://img.shields.io/badge/Exploratory_Data_Analysis-FF9800?style=for-the-badge)
+![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+
 ## About The Project
 
 This project focuses on performing an **Exploratory Data Analysis (EDA)** on a global layoffs dataset using **MySQL**. I explored workforce reduction patterns across companies, industries, countries, locations, and company growth stages to better comprehend how layoffs evolved over time.
